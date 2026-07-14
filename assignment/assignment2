@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>my portfolio</title>
+</head>
+<body>
+    <nav>
+        <a href="#about">about</a>
+        <a href="#skills">skills</a>
+        <a href="#project">project</a>
+        <a href="#contact">contact</a>            
+    </nav>
+
+    <header>
+        <h1> Hi i'm Pooja's Welcome to My Portfolio</h1>
+        <p>I'm a web developer and designer with a passion for creating beautiful and functional websites. I have experience in HTML, CSS, JavaScript, and various front-end frameworks. I enjoy working on challenging projects and continuously learning new technologies to improve my skills.</p>
+        <a href="#hire">hire Me</a>
+    </header>
+    <section id="about">
+        <h2>About Me</h2>
+        <p>I am a dedicated and enthusiastic web developer with a strong foundation in front-end development. I have a keen eye for design and a passion for creating user-friendly interfaces. My goal is to build websites that not only look great but also provide an excellent user experience.</p> 
+        <img src="Inja Pooja Reddy.jpeg" alt="profile_pic" width="300" height="300"> 
+    </section>
+    <section id="skills">
+        <h2>Skills</h2>
+        <ol>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JavaScript</li>
+            <li>React</li>
+            <li>Node.js</li>
+            <li>Responsive Design</li>
+        </ol>
+    </section>
+    <section id="project">
+        <h2>My Projects</h2>
+        <h3>project 1 </h3>
+        <p>Description of project 1...</p>
+        <h3>project 2 </h3>
+        <p>Description of project 2...</p>
+        <h3>project 3 </h3>
+        <p>Description of project 3...</p>
+    </section>
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <p>emil:<a href="mailto:injapooja@gmail.com">injapooja@gmail.com</a></p>
+        <p>github:<a href="https://github.com/inja-pooja-reddy" target="_blank">inja pooja reddy</a></p>
+        <p>linkedin:<a href="https://www.linkedin.com/in/inja-pooja-reddy-4863a7370/" target="_blank">inja pooja reddy</a></p>
+    </section>
+    <section id="skills">
+    <h2>Skills</h2>
+
+    <table border="1" cellpadding="10">
+        <tr>
+            <th>Technology</th>
+            <th>Proficiency</th>
+            <th>Years of Experience</th>
+        </tr>
+        <tr>
+            <td>HTML</td>
+            <td>Advanced</td>
+            <td>2</td>
+        </tr>
+        <tr>
+            <td>CSS</td>
+            <td>Intermediate</td>
+            <td>2</td>
+        </tr>
+        <tr>
+            <td>JavaScript</td>
+            <td>Intermediate</td>
+            <td>1</td>
+        </tr>
+        <tr>
+            <td>React</td>
+            <td>Beginner</td>
+            <td>1</td>
+        </tr>
+        <tr>
+            <td>Node.js</td>
+            <td>Beginner</td>
+            <td>1</td>
+        </tr>
+    </table>
+    <h1>Registration Form</h1>
+
+    <form>
+
+        <label>Full Name:</label><br>
+        <input type="text" name="fullname" required><br><br>
+
+        <label>Email:</label><br>
+        <input type="email" name="email" required><br><br>
+
+        <label>Password:</label><br>
+        <input type="password" name="password" required><br><br>
+
+        <label>Gender:</label><br>
+        <input type="radio" name="gender" value="Male"> Male
+        <input type="radio" name="gender" value="Female"> Female
+        <input type="radio" name="gender" value="Other"> Other
+        <br><br>
+
+        <label>Skills:</label><br>
+        <input type="checkbox" name="skills" value="HTML"> HTML
+        <input type="checkbox" name="skills" value="CSS"> CSS
+        <input type="checkbox" name="skills" value="JavaScript"> JavaScript
+        <br><br>
+
+        <label>Country:</label><br>
+        <select>
+            <option>India</option>
+            <option>USA</option>
+            <option>Canada</option>
+            <option>Australia</option>
+        </select>
+        <br><br>
+
+        <label>About Yourself:</label><br>
+        <textarea rows="5" cols="30"></textarea>
+        <br><br>
+
+        <label>Upload Resume:</label><br>
+        <input type="file">
+        <br><br>
+
+        <label>Date of Birth:</label><br>
+        <input type="date">
+        <br><br>
+
+        <input type="submit" value="Register">
+        <input type="reset" value="Reset">
+
+    </form>
+
+</section>
+</body>
+</html>
