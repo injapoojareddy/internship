@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>portfolio</title>
+</head>
+<body>
+    <nav>
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#contact">Contact</a>
+        <a href="#project">Project</a>
+    </nav>
+    <header>
+        <h1>Hi, I'm Inja pooja Reddy👋</h1>
+        <p>I'm a passionate web developer from bangalore</p>
+        <a href="#Hire">Hire me</a>
+        <h1>About Me</h1>
+        <img src="Inja Pooja Reddy.jpeg" alt="Inja Pooja Reddy" width="200px" height="200px">
+        <p>I love building things on the web.Currently learning HTML, CSS, and JavaScript and React.</p>
+        <h1> MySkills</h1>
+        <ul type="circle">
+            <li>HTML</li>
+            <li>CSS3</li>
+            <li>JavaScript</li>
+            <li>React</li>
+             </section>
+    <section id="project">
+        <h2>My projects</h2>
+        <h3>Project 1</h3>
+        <p>The description of the project 1 </p>
+<a href="#view project">view project</a>
+<h3>Project 2</h3>
+        <p>The description of the project 2 </p>
+<a href="#view project">view project</a> 
+<h3>Project 3</h3>
+        <p>The description of the project 3 </p>
+<a href="#view project">view project</a>
+    </section>
+    <section id="contact">
+        <h2>Contact me</h2>
+        <p>Email: example@email.com</p>
+         <a href="https://mail.google.com/mail/u/1/#inbox">injapooja@gmail.com</a><br>
+        <p>Github:</p>
+        <a href="https://github.com/">injapoojareddy</a><br>
+        <p>Linkedin:</p>
+        <a href="https://www.linkedin.com/in/inja-pooja-reddy-4863a7370/">Inja Pooja Reddy</a><br>
+        <p>© 2024 [your name]. All rights reserved.</p> 
+        
