@@ -1,0 +1,51 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+:root{
+    --primary:#1B4F72;
+    --accent:#F18F01;
+    --text:#2C3E50;
+    --rbg:purple;
+    --light:#F4F6F8;
+    --white:#FFFFFF;
+    --font-main:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+body{
+    font-family: var(--font-main);
+    color: var(--text);
+    line-height: 1.6;
+    background-color: #FFFFFF
+}
+header{
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 5%;
+    background: linear-gradient(to right, var(--accent), var(--rbg));
+}
+.logo{
+    font-size:28px;
+    color:var(--white);
+    font-weight:bold;
+}
+.nav-links{
+    list-style:none;
+    display:flex;
+    gap:20px;
+}
+.nav-links li{
+    text-decoration: none;
+    color:var(--white);
+    font-weight: 500;
+}
+.nav-links a:hover{
+    color:var(--accent);
+}
