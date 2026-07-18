@@ -37,7 +37,7 @@
         <h1>About Me</h1>
         <figure>
             <img src="Inja Pooja Reddy.jpeg" alt="Inja Pooja Reddy" width="200px" height="200px">
-            <figcaption>Inja Pooja Reddy</figcaption>
+            <figcaption>Inja Pooja Reddy Web Developer</figcaption>
         </figure>
         <p>I love building things on the web.Currently learning HTML, CSS, and JavaScript and React.</p>
         <h1> MySkills</h1>
@@ -58,7 +58,8 @@
 <h3>Project 3</h3>
         <p>The description of the project 3 </p>
 <a href="#view project">view project</a>
-    </section>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/sJUqkuYY9zw?si=skRuaNwb6O2e0IDS" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</section>
     <section id="contact">
         <h2>Contact me</h2>
         <p>Email: example@email.com</p>
@@ -68,25 +69,87 @@
         <p>Linkedin:</p>
         <a href="https://www.linkedin.com/in/inja-pooja-reddy-4863a7370/">Inja Pooja Reddy</a><br>
         <p>© 2024 [Inja Pooja Reddy]. All rights reserved.</p>
-        <label for="full name">Name:</label>
-        <input type="text"  placeholder="Enter your name" id="full name" name="full name" required>
-        <br >
-        <label for="email">Email:</label>
-        <input type="email" placeholder="Enter your email" id="email" name="email" required>
-        <br>
-        <label for="subject">Subject:</label>
-        <select id="subject" name="subject" required>
-            <option value="--select a value--">--select a value--</option>
-            <option value="general">General Inquiry</option>
-            <option value="project">Project Collaboration</option>
-            <option value="feedback">Feedback</option>
+        <section id="skills">
+    <h2>Skills</h2>
+    <table border="1">
+        <tr>
+            <th>Technology</th>
+            <th>Proficiency</th>
+            <th>Years of Experience</th>
+        </tr>
+        <tr>
+            <td>HTML</td>
+            <td>Advanced</td>
+            <td>2</td>
+        </tr>
+        <tr>
+            <td>CSS</td>
+            <td>Intermediate</td>
+            <td>2</td>
+        </tr>
+        <tr>
+            <td>JavaScript</td>
+            <td>Intermediate</td>
+            <td>1</td>
+        </tr>
+        <tr>
+            <td>React</td>
+            <td>Beginner</td>
+            <td>1</td>
+        </tr>
+    </table>
+    <h1>Registration Form</h1>
+
+    <form>
+
+        <label>Full Name:</label><br>
+        <input type="text" name="fullname" required><br><br>
+
+        <label>Email:</label><br>
+        <input type="email" name="email" required><br><br>
+
+        <label>Password:</label><br>
+        <input type="password" name="password" required><br><br>
+
+        <label>Gender:</label><br>
+        <input type="radio" name="gender" value="Male"> Male
+        <input type="radio" name="gender" value="Female"> Female
+        <input type="radio" name="gender" value="Other"> Other
+        <br><br>
+
+        <label>Skills:</label><br>
+        <input type="checkbox" name="skills" value="HTML"> HTML
+        <input type="checkbox" name="skills" value="CSS"> CSS
+        <input type="checkbox" name="skills" value="JavaScript"> JavaScript
+        <br><br>
+
+        <label>Country:</label><br>
+        <select>
+            <option>India</option>
+            <option>USA</option>
+            <option>Canada</option>
+            <option>Australia</option>
         </select>
-        <br>
-        <label for="message">Message:</label>
-        <textarea id="message" name="message" placeholder="Enter your message" required></textarea>
-        <br>
-        <button type="submit">Send Message</button>
-    </section>
+        <br><br>
+
+        <label>About Yourself:</label><br>
+        <textarea rows="5" cols="30"></textarea>
+        <br><br>
+
+        <label>Upload Resume:</label><br>
+        <input type="file">
+        <br><br>
+
+        <label>Date of Birth:</label><br>
+        <input type="date">
+        <br><br>
+
+        <input type="submit" value="Register">
+        <input type="reset" value="Reset">
+
+    </form>
+
+</section>
 </body>
 </html>
        
