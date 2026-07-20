@@ -21,13 +21,14 @@
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Inja Pooja Reddy | Web Developer">
     <meta name="twitter:description" content="Check out my portfolio!">
+    <link rel="stylesheet" href="style.css">
     <title> My Portfolio</title>
 </head>
 <body>
     <header>
-    <nav>
+    <nav class="navbar">
         <div class="logo">IPR</div>
-        <ul>
+        <ul class="nav-link">
             <li><a href="#about">About</a></li>
             <li><a href="#skills">Skills</a></li>
             <li><a href="#contact">Contact</a></li>
@@ -68,7 +69,29 @@
         <h2>My projects</h2>
         <div class="project-grid">
             <article class="project-card" data-category="web">
-                <img src="weather.jpg" alt="weather app screenshot">
+                <img src="weather.jpg" alt="weather app screenshot" width="300px" height="200px">
+                <h3>Weather app</h3>
+                <p>real time weather dashboard using open weather API </p>
+                <div class="project-tags">
+                    <span>React</span>
+                    <span>API</span>
+                </div>
+                <a href="#">live demo</a>
+                <a href="#">GitHub</a>
+            </article>
+             <article class="project-card" data-category="web">
+                <img src="weather.jpg" alt="weather app screenshot" width="300px" height="200px">
+                <h3>Weather app</h3>
+                <p>real time weather dashboard using open weather API </p>
+                <div class="project-tags">
+                    <span>React</span>
+                    <span>API</span>
+                </div>
+                <a href="#">live demo</a>
+                <a href="#">GitHub</a>
+            </article>
+             <article class="project-card" data-category="web">
+                <img src="weather.jpg" alt="weather app screenshot" width="300px" height="200px">
                 <h3>Weather app</h3>
                 <p>real time weather dashboard using open weather API </p>
                 <div class="project-tags">
@@ -85,16 +108,17 @@
         <form action="#" method="post" novalidate>
             <div class="form-group">
                 <label for="name">Name</label>
-                <input type="text" name="name" id="name" required>
+                <input type="text" name="name" id="name"  required>
             </div>
+            <br>
             <div class="form-group">
                 <label for="email">Email</label>
                 <input type="email" name="email" id="email" required>
-            </div>
+            </div><br>
             <div class="form-group">
                 <label for="message">Message</label>
                 <textarea name="message" id="message" rows="5" required></textarea>
-            </div>
+            </div><br>
             <div>
                 <button class="submit-button" type="submit">Send Message</button>
             </div>
