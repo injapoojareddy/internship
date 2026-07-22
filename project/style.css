@@ -68,7 +68,7 @@ header{
     gap:20px;
    margin-top: 40px ;
 }
-.skills-items{
+.skill-item{
     background-color:var(--light);
     border: 2px solid var(--primary);
     padding:30px 20px;
@@ -125,8 +125,17 @@ box-shadow: 0px 10px 30px rgba(0,0,0,0.818);
 }
 .btn-primary:hover{
     background-color: transparent;
-    color: #BBAED9;
-    border-color: #BBAED9;
+    color:orange;
+    border-color:white;
+}
+.btn-secondary{
+    background-color:orange;
+    color:var(--white)
+}
+.btn-secondary:hover{
+    background-color: transparent;
+    color:orange;
+    border-color:white;
 }
 section{
     padding: 80px 5%;
@@ -151,6 +160,10 @@ hero-button{
     }
 .hero-section h1{
     animation: fadeinup 0.8s ease 0.2s both;
+
+    }
+    .hero-section p{
+        animation: fadeinup 0.8s ease 0.2s both;
 
     }
 @keyframes fadeinup{
@@ -193,11 +206,10 @@ hero-button{
     color: rgba(255,255,255,0.8);
 }
 .menu-toggle{
-    display: none;
     background: none;
     border: none;
-    color: white;
-    font-size: 30px;
+    color:white;
+    font-size:30px;
     cursor: pointer;
 }
 @media (max-width:768px){
